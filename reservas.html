@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logothepub.png" type="image/x-icon" />
     <title>Reserva</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -29,6 +30,81 @@
       <section id="reservas">
         <div class="contemedor imagen">
           <img src="img/local.jpg" class="imagenlocal" alt="local" />
+          
         </div>
+       </section>
+
+        <!-- Reserva formulario -->
+
+        <section id="menu">
+          <div class="contenedorr"> 
+
+          <div class="contenedore">
+            <form action="" class="form">
+                <div class="form-header">
+                    <h1 class="form-title">C<span>ontacto</span></h1>
+                </div>
+    
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
+    
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" id="apellido" class="form-input" placeholder="Escriba su apellido">
+    
+                <label for="correo" class="form-label">Email</label>
+                <input type="email" id="correo" class="form-input" placeholder="Escriba su email" required>
+    
+                <label for="Fecha de reserva" class="form-label">Fecha de reserva</label>
+                 <input type="date" name="Fecha de reserva" id="Fecha de reserva" required>
+    
+                 <label for="Numero de personas" class="form-label">Numero de personas</label>
+                 
+                <select name="Numero de personas" id="numero de personas">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                     </select>
+    
+                     <label for="Horarios"class="form-label" >Horarios</label>
+                     
+                     <input type="radio" name="hora"> 20:00
+                     <input type="radio" name="hora"> 21:00
+                     
+                     <input type="radio" name="hora"> 22:00
+                     <input type="radio" name="hora"> 23:00
+    
+                 <input type="submit" class="btn-submit" value="Reservar">
+        </section>
+
+
+        <!-- footer -->
+
+        <footer class="footer">
+          <div class="footer__flex">
+          <div>
+           <h4>Producto</h4>
+           
+          <h6>Landing page</h6>
+          <h6>Popub builder</h6>
+          <h6>Web-design</h6>
+          <h6>Content</h6>
+      </div>
+      
+     
+    
+      <form class="search-form">
+          <input type="text" name="text" placeholder="Email">
+  
+          <button>Suscribirse</button>
+  </div>
+  
+  </div>
+     <div class="footer__credito">2021 Desarrollado por (bochi) Erick Puerto</div>
+       </footer>
+
+
 </body>
 </html>
