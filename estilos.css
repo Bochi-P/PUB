@@ -59,11 +59,24 @@ a:focus {
   background-size: 100% 2px;
 }
 
+
 .logo {
   width: 7rem;
   padding-left: 20px;
   float: left;
-  box-sizing: border-box;
+  transform: translate(0,0);
+  content:  '';
+  transition: 1s;
+  border-radius: 100px;
+  margin-left: -50px;
+  left: 50%;
+  top: 0%;
+ 
+}
+
+.logo:hover{
+  transform: scale(-1.01);
+  transition: 1s;
 }
 
 /* SECCION SERVICIOS */
